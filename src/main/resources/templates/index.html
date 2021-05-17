@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8">
+  <title>张三的first demo</title>
+  <script type="text/javascript"
+          th:src="@{/scripts/jquery/jquery-1.7.1.js}"></script>
+</head>
+
+<body>
+<div th:each="user:${userList}">
+  <span th:text="${user.username}"></span>
+  <button th:onclick="'javascript:showUserPwd('+${user.id}+');'">查询用户描述</button>
+</div>
+
+</body>
+<script>
+  function showUserPwd(id) {
+    console.info(id);
+    $.ajax({
+      type: "GET",
+      url: "/get_user_pwd?id=" + id,
+      contentType: "application/json; charset=utf-8",
+      success: function (obj) {
+        alert(obj.data);
+      },
+      error: function () {
+        alert("系统异常！");
+      }
+    });
+  }
+</script>
+
+</html>

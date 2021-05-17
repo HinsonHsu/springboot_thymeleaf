@@ -1,6 +1,8 @@
 ### 代码地址
 https://github.com/HinsonHsu/springboot_thymeleaf
 
+简书地址：https://www.jianshu.com/p/f71f9cd6aa4b
+
 ### 技术框架
 + 后端语言：java
 + 后端框架：springboot

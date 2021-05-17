@@ -1,7 +1,8 @@
 ### 代码地址
 https://github.com/HinsonHsu/springboot_thymeleaf
 
-简书地址：https://www.jianshu.com/p/f71f9cd6aa4b
+### 简书地址：
+https://www.jianshu.com/p/f71f9cd6aa4b
 
 ### 技术框架
 + 后端语言：java
@@ -36,7 +37,7 @@ html+后端数据才能形成动态的页面，thymeleaf是将java对象能够�
 ### 一键生成项目代码
 spring提供了快速便捷的方式，https://start.spring.io/
 
-#### 相关属性
+### 相关属性
 
 + project
 （java依赖管理工具）：选择Maven project
@@ -57,19 +58,19 @@ spring提供了快速便捷的方式，https://start.spring.io/
   | package name        | 代码包路径，一般格式是group + artifact形式，填写group和artifact后自动生成，一般不需要再修改     |   com.zhangsan.demo    |
   | Java       | java版本，使用稳定版8     |   8   |
 
-#### 确认引入依赖：
+### 确认引入依赖：
 + Spring Web
 + MyBatis Framework 
 + MySQL Driver 
 + Thymeleaf
 
-#### 示范
+### 示范
 ![image.png](https://upload-images.jianshu.io/upload_images/14105483-7f2c66f9062be083.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-#### 初始化项目
+### 初始化项目
 将下载好的包解压，然后用idea打开项目。一般都能够自动加载（第一次会很慢，耐心等待）
 
-#### 按照分层设计添加代码：
+### 按照分层设计添加代码：
 
 ![image.png](https://upload-images.jianshu.io/upload_images/14105483-99ff064b362c5b91.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
